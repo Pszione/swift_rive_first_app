@@ -17,7 +17,8 @@ struct CustomFont: ViewModifier {
 
 // This extension makes ir easier to add modifier to the View
 extension View {
-    func customFont(textStyle: TextStyle) -> some View {
+    // note: this underscore bellow is optional. So we can ommit variable name and just type .title/.body
+    func customFont(_ textStyle: TextStyle) -> some View {
         modifier(CustomFont(textStyle: textStyle))
     }
 }

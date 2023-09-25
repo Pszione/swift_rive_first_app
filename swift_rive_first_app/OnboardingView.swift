@@ -15,23 +15,32 @@ struct OnboardingView: View {
         ZStack {
             background
             
-            button.view()
-                .frame(width: 236, height: 64)
-                .overlay(
-                    Label("Start the course", systemImage: "arrow.forward")
-                    .offset(x: 4, y:4)
+            VStack {
+                Text("Learn design & code")
+                    .font(.custom("Poppins Bold", size: 60, relativeTo: .largeTitle))
+                    .frame(width: 260, alignment: .leading)
+                // note: .relativeTo with adapt based on accesibility size settings
+                Text("Don't skip design. Learn design and code, by building real apps with Flutter and Swift. Complete courses about the best tools.")
                     .font(.headline)
-                )
-                .background(
-                    Color.black
-                        .cornerRadius(30)
-                        .blur(radius: 10)
-                        .opacity(0.3)
-                        .offset(y: 10)
-                )
-                .onTapGesture {
-                    button.play(animationName: "active")
+                
+                button.view()
+                    .frame(width: 236, height: 64)
+                    .overlay(
+                        Label("Start the course", systemImage: "arrow.forward")
+                        .offset(x: 4, y:4)
+                        .font(.headline)
+                    )
+                    .background(
+                        Color.black
+                            .cornerRadius(30)
+                            .blur(radius: 10)
+                            .opacity(0.3)
+                            .offset(y: 10)
+                    )
+                    .onTapGesture {
+                        button.play(animationName: "active")
                 }
+            }
             
         }
     }

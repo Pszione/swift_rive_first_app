@@ -8,6 +8,8 @@
 import SwiftUI
 import RiveRuntime
 
+// note: ctrl + I to format/ident code
+
 struct OnboardingView: View {
     let button = RiveViewModel(fileName: "button")
     

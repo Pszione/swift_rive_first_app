@@ -11,6 +11,7 @@ struct CustomFont: ViewModifier {
     var textStyle: TextStyle
     
     func body(content: Content) -> some View {
+        // note: option + click to see class constructor variables
         content.font(.custom("Inter Regular", size: 17, relativeTo: .body))
     }
 }

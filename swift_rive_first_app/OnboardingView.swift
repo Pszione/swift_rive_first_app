@@ -21,7 +21,10 @@ struct OnboardingView: View {
                     .frame(width: 260, alignment: .leading)
                 // note: .relativeTo with adapt based on accesibility size settings
                 Text("Don't skip design. Learn design and code, by building real apps with Flutter and Swift. Complete courses about the best tools.")
-                    .font(.headline)
+                    .customFont(textStyle: .title)
+//                    .font(.headline)
+//                    .modifier(customFont())
+//                    .customFont()
                 
                 button.view()
                     .frame(width: 236, height: 64)

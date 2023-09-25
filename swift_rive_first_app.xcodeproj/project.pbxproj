@@ -23,6 +23,7 @@
 		3D39F7DE2AC1D7D70030487A /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D39F7DB2AC1D7D70030487A /* Inter-Regular.ttf */; };
 		3D39F7DF2AC1D7D70030487A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D39F7DC2AC1D7D70030487A /* Poppins-Bold.ttf */; };
 		3D39F7E02AC1D7D70030487A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D39F7DD2AC1D7D70030487A /* Inter-SemiBold.ttf */; };
+		3D39F7E32AC1DC210030487A /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39F7E22AC1DC210030487A /* CustomFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		3D39F7DC2AC1D7D70030487A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		3D39F7DD2AC1D7D70030487A /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		3D39F7E12AC1D84C0030487A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		3D39F7E22AC1DC210030487A /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				3D39F7BD2AC1C87C0030487A /* swift_rive_first_app.entitlements */,
 				3D39F7BE2AC1C87C0030487A /* Preview Content */,
 				3D39F7D82AC1CAB10030487A /* OnboardingView.swift */,
+				3D39F7E22AC1DC210030487A /* CustomFont.swift */,
 			);
 			path = swift_rive_first_app;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D39F7D92AC1CAB20030487A /* OnboardingView.swift in Sources */,
+				3D39F7E32AC1DC210030487A /* CustomFont.swift in Sources */,
 				3D39F7BA2AC1C87B0030487A /* ContentView.swift in Sources */,
 				3D39F7B82AC1C87B0030487A /* swift_rive_first_appApp.swift in Sources */,
 			);
